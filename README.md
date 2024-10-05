@@ -71,6 +71,7 @@ Developed by: Register Number*/
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+![Screenshot 2024-10-05 151443](https://github.com/user-attachments/assets/8eb39edd-e50e-4335-af86-e15ef441ad43)
 
 ### Fig 3:Invoke the Cadence Environment
 
@@ -83,12 +84,14 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot 2024-10-05 151454](https://github.com/user-attachments/assets/c8fea82e-23ca-46bd-a07b-dbfb3f7b4f9f)
 
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot 2024-10-05 151513](https://github.com/user-attachments/assets/73d9ab94-7785-4155-80db-a043014b055b)
 
 ### Fig 5:cds.lib file Creation
 
@@ -111,6 +114,7 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot 2024-10-05 151531](https://github.com/user-attachments/assets/c1c4d308-8378-4f0d-8f79-cdd554de34e3)
 
 ### Fig 7: Nclaunch Window
 
@@ -153,6 +157,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 5.	It also establishes net connectivity and prepares all of this for simulation
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
+![Screenshot 2024-10-05 151559](https://github.com/user-attachments/assets/30bb0290-c6cc-4d98-a670-0531c09e9226)
 
 ### Fig 9: Elaboration Launch Option
 
@@ -165,10 +170,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
+![Screenshot 2024-10-05 151633](https://github.com/user-attachments/assets/053c8674-1f42-445d-8448-3f490f520af9)
 
 ### Fig 10: Design Browser window for simulation
+![Screenshot 2024-10-05 151650](https://github.com/user-attachments/assets/6be1e9d9-4d86-4152-91d2-8103dead05a8)
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+![Screenshot 2024-10-05 151659](https://github.com/user-attachments/assets/b0cf4b8b-c3b9-4912-9237-b33faaf2745b)
 
 ### Fig 12: Simulation Waveform Window
 
